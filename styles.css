@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos del Nav*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    background: #b5e388c2;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    display: flex;
+}
+
+.h1Img {
+    padding: 10px;
+    margin: auto;
+    size: 100px;
+    display: flex;
+    margin-left: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #e1ffb1
+}
+
+h2:hover {
+    background-color: #e1ffb1
+}
+
+.hide {
+    font-size: 22px;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.67);
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    ul li {
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .hide {
+        display: block;
+    }
+}
+
+/*contador del carrito*/
+.cantidad-carrito {
+    background-color: rgb(12, 186, 50);
+    color: #fcffb2;
+    border-radius: 40%;
+    font-size: 12px;
+    padding: 5px;
+    top: 60px;
+    right: 20px;
+    position: absolute;
+    display: none;
+}
+
+/*estilos de imagen*/
+.img-fluid1 {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/*estilos del carrito*/
+.contenido-carrito {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.67);
+    font-family: 'Lato', sans-serif;
+    background-color: #fcffb2;
+
+}
+
+/*estilo de las cards*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 3px;
+    margin-top: 15px;
+}
+
+.card>img {
+    width: 100%;
+    height: 280px;
+}
+
+.card h4 {
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+
+.precio {
+    color: #7ea25a;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.67);
+    font-weight: 500;
+    background-color: #b5e388e3;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.6;
+}
+
+#contenidoCarrito {
+    margin-bottom: 40px;
+}
+
+/*boton de eliminar*/
+.delete-product {
+    cursor: pointer;
+}
+
+/*contenido del modal*/
+.modal-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.modal-content p {
+    padding: 5px;
+}
+
+.modal-content p:first-child {
+    min-width: 22%;
+    width: 22%;
+    max-width: 22%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(2) {
+    min-width: 16%;
+    width: 16%;
+    max-width: 16%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(3) {
+    min-width: 25%;
+    width: 25%;
+    max-width: 25%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(4) {
+    min-width: 7%;
+    width: 7%;
+    max-width: 7%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(5) {
+    min-width: 3%;
+    width: 3%;
+    max-width: 3%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(6) {
+    min-width: 10%;
+    width: 10%;
+    max-width: 10%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(7) {
+    min-width: 3%;
+    width: 3%;
+    max-width: 3%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(8) {
+    min-width: 11%;
+    width: 11%;
+    max-width: 11%;
+    word-break: break-all;
+}
+
+.modal-content p:nth-child(9) {
+    min-width: 3%;
+    width: 3%;
+    max-width: 3%;
+    word-break: break-all;
+}
+
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: rgba(0, 0, 0, 0.67);
+    background-color: #fcffb2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.67);
+    width: 100%;
+    background-color: #e1ffb1;
+}
+
+.modal-header-title {
+    justify-self: start;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.modal-container h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.modal-content h4 {
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+.modal-header-button {
+    cursor: pointer;
+    font-size: 27px;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+.modal-container>.modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.modal-container>div>img {
+    height: 100px;
+    width: 100px;
+}
+
+.total-content {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.67);
+    font-weight: bolder;
+}
+
+/*estilos del botón para finalizar la compra*/
+.boton-compra {
+    font-family: 'Lato', sans-serif;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.67);
+    font-weight: 500;
+    background-color: #b5e388e3;
+    border: none;
+    font-weight: 22px;
+    font-weight: lighter;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #5d8a30 !important;
+}
+
+.swal2-icon.swal2-info {
+    border-color: #c7f2a4;
+    color: #b6e388;
+}
+
+/*botones de sumar y restar en el modal*/
+.sumar {
+    cursor: pointer;
+}
+
+.restar {
+    cursor: pointer;
+}
+
+/*estilos del footer*/
+.footer {
+    width: 100%;
+    background-color: #b5e388c9;
+    padding: 10px;
+    position: sticky;
+}
+
+/*barra con iconos para contacto*/
+.footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+}
+
+.footer .social img:hover {
+    transform: scale 1.3;
+}

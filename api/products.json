@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "nombre": "Agenda semanal",
+            "descripcion": "Agenda semana a la vista.Tamaño: A5 15 x 21 cm. Anillada, tapa dura.",
+            "precio": 5050,
+            "img": "public/1-agenda.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Cuaderno",
+            "descripcion": "Un cuaderno para soñar,crear,estudiar y organizar toda tu creatividad. Tapa dura, A5.",
+            "precio": 3500,
+            "img": "public/2-cuaderno.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Bitácora de viaje",
+            "descripcion": "Bitácora con tips y hojas lisas para escribir o dibujar mientras viajas. Tamaño: 21 x 15 cm.",
+            "precio": 4100,
+            "img": "public/3-bitacoraDeViaje.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Diario de creatividad",
+            "descripcion": "Tamaño: 17 x 23 cm. Tapa dura soft touch con hotstamping. Hojas punteadas.",
+            "precio": 3800,
+            "img": "public/4-diarioDeCreatividad.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 5,
+            "nombre": "Bullet journal",
+            "descripcion": "Hojas punteadas para escribir tus notas, actividades y tareas. Tapa blanda.",
+            "precio": 3500,
+            "img": "public/5-bulletJournal.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 6,
+            "nombre": "Diario de sueños",
+            "descripcion": "Con tips y actividades para completar y ejercitar el amor propio. Tamaño 14x19 cm.",
+            "precio": 3800,
+            "img": "public/6-DiarioDeSuenios.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 7,
+            "nombre": "Notepad pack x 50",
+            "descripcion": "Ideal para escribir notitas. Tamaño: 7,2 x 7,4 cm. 50 hojas papel obra 90gr. 50 unidades.",
+            "precio": 800,
+            "img": "public/7-notepad.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 8,
+            "nombre": "Agenda diaria",
+            "descripcion": "400 páginas. Papel obra 80gr. Tamaño A5. Anillado metálico doble y cierre elástico.",
+            "precio": 5000,
+            "img": "public/8-agendaSemanal.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 9,
+            "nombre": "Libreta",
+            "descripcion": "Ideal para la mochila y cartera. Tamaño: 12 x 17 cm. Tapa blanda.",
+            "precio": 1800,
+            "img": "public/9-libreta.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 10,
+            "nombre": "Planner/Planificador",
+            "descripcion": "Espacio para organizar tu semana día por día.",
+            "precio": 3000,
+            "img": "public/10-planner.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 11,
+            "nombre": "Diario de lectura",
+            "descripcion": "Para llevar registro de tus lecturas. Tamaño 15x21 cm. Tapa dura.",
+            "precio": 3500,
+            "img": "public/11-cuadernoCreatividad.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 12,
+            "nombre": "Combo floral",
+            "descripcion": "Incluye agenda diaria + Portalapiceras + Lapicereras.",
+            "precio": 7500,
+            "img": "public/12-comboPapel.jpg",
+            "cantidad": 1
+        }
+    ]
+}
